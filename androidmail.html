@@ -81,7 +81,7 @@
 
       //const CompleteMessageToSend = "mailto:"+ SendMailTo + "?bcc="+ bcc + "&subject=" + SubjectLine[sub] + "&body=" + OpeningLine[Oline] + BodyOfEmail +(encodeURIComponent(BodyOfEmail2)) + EndingLine[Eline];
 
-      const CompleteMessageToSend = "mailto:"+ SendMailTo + "?bcc="+ bcc + "&subject=" + SubjectLine[sub] + "&body=" + OpeningLine[Oline] + SubjectLine[sub] + BodyOfEmail + EndingLine[Eline];
+      const CompleteMessageToSend = "mailto:"+ SendMailTo + "?bcc="+ bcc + "&subject=" + SubjectLine[sub] + "&body=" + OpeningLine[Oline] + "Subject:" + SubjectLine[sub] + BodyOfEmail + EndingLine[Eline];
 
       location.href = CompleteMessageToSend;
 
